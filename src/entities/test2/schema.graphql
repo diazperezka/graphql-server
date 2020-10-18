@@ -1,0 +1,11 @@
+type test2 {
+  test2: String
+}
+
+input InputTest2 {
+  test2: String
+}
+
+type Query {
+  Test2(input: InputTest2): test2
+}
